@@ -70,16 +70,14 @@ cp .env.example .env
 composer install --no-dev --optimize-autoloader
 ```
 
+Only run the command below if you are installing Pelican for the first time!  
+If you're trying to update your panel, [Go Here](./update)
 
-    Only run the command below if you are installing Pelican for the first time!  
-    If you're trying to update your panel, [Go Here](./update)
-
-    **Running this command with an existing install will cause irrecoverable dataloss!**
-    ```sh
-    php artisan key:generate --force
-    ```
-
-
+> [!WARNING]
+>Running this command with an existing install will cause irrecoverable dataloss!
+```sh
+php artisan key:generate --force
+```
 ## Database Setup
 
 You will need a database and a user with the correct permissions created for that database before continuing any further. 
