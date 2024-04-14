@@ -1,8 +1,6 @@
 # Getting Started
 
-## Pelican Panel
-
-[https://pelican.com](https://pelican.dev/) is designed to run on your webserver.  
+[Pelican Panel](https://pelican.dev/) is designed to run on your webserver.  
 
 You are expected to read through our documentation.
 We have spent a lot of time curating these docs for the community,
